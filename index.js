@@ -12,4 +12,4 @@ app.get('/teste',(request, response)=>{
   return response.json({name, date})
 })
 
-
+app.listen(3333);
