@@ -7,8 +7,6 @@ app.get('/',(request, response)=>{
 })
 
 app.get('/atualizou',(request, response)=>{
-  const { name, date } = request.body;
-
   return response.json({message: 'Atualizou mesmo!'})
 })
 
